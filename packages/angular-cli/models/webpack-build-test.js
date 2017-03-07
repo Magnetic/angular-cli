@@ -74,6 +74,7 @@ const getWebpackTestConfig = function (projectRoot, environment, appConfig, test
     context: projectRoot,
     resolve: {
       extensions: ['.ts', '.js'],
+      modules: [path.resolve(projectRoot, 'node_modules')],
       plugins: [
         new ngtools.PathsPlugin({
           tsConfigPath: path.resolve(appRoot, appConfig.tsconfig)
