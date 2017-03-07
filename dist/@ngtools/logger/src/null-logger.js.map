@@ -1,0 +1,1 @@
+{"version":3,"file":"null-logger.js","sourceRoot":"/","sources":["src/null-logger.ts"],"names":[],"mappings":";;;;;;AAAA,mCAAgC;AAEhC,8CAA2C;AAE3C,qCAAmC;AAGnC;IAAgC,8BAAM;IACpC,oBAAY,MAA4B;QAA5B,uBAAA,EAAA,aAA4B;QAAxC,YACE,kBAAM,EAAE,EAAE,MAAM,CAAC,SAElB;QADC,KAAI,CAAC,WAAW,GAAG,uBAAU,CAAC,KAAK,EAAE,CAAC;;IACxC,CAAC;IACH,iBAAC;AAAD,CAAC,AALD,CAAgC,eAAM,GAKrC;AALY,gCAAU"}
