@@ -47,6 +47,7 @@ const getWebpackTestConfig = function (projectRoot, environment, appConfig, test
     context: path.resolve(__dirname, './'),
     resolve: {
       extensions: ['.ts', '.js'],
+      modules: [path.resolve(projectRoot, 'node_modules')],
       plugins: [
         new atl.TsConfigPathsPlugin({
           tsconfig: path.resolve(appRoot, appConfig.tsconfig)
